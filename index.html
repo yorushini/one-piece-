@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El One Piece - El Proyecto de Libertad</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <h1 class="title">¿QUE ES EL ONE PIECE?</h1>
+
+        <div class="chest-container" id="chestContainer">
+            <img src="chest_closed.png" alt="Cofre del tesoro cerrado" class="chest" id="chest">
+            <div class="glow" id="glow"></div>
+        </div>
+        <p class="instruction" id="instruction">Haz click para abrir el tesoro</p>
+
+        <div class="content-box hidden" id="contentBox">
+            <p id="textReveal"></p>
+        </div>
+    </div>
+
+    <!-- Contador de visitas -->
+    <div class="counter-container">
+        <p class="counter-text">Piratas que han descubierto el tesoro:</p>
+        <!-- Contador de visitas confiable -->
+        <img src="https://profile-counter.glitch.me/one-piece-freedom/count.svg" alt="Contador de visitas" />
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
